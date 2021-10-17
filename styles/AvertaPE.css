@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-ThinItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-ExtrathinItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-ExtrathinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Regular.woff2') format('woff2'),
+        url('./files/AvertaPE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-ExtraboldItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-ExtraboldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-LightItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Semibold.woff2') format('woff2'),
+        url('./files/AvertaPE-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-RegularItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Black.woff2') format('woff2'),
+        url('./files/AvertaPE-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-SemiboldItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Thin.woff2') format('woff2'),
+        url('./files/AvertaPE-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Light.woff2') format('woff2'),
+        url('./files/AvertaPE-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Bold.woff2') format('woff2'),
+        url('./files/AvertaPE-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Extrathin.woff2') format('woff2'),
+        url('./files/AvertaPE-Extrathin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-BlackItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-BoldItalic.woff2') format('woff2'),
+        url('./files/AvertaPE-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    font-display: auto;
+    src: url('./files/AvertaPE-Extrabold.woff2') format('woff2'),
+        url('./files/AvertaPE-Extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
