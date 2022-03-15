@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 import Capacitacao from '@components/Capacitacao'
 import Slider from '@components/Slider'
 import Contato from '@components/Contato'
-import Clientes from '@components/clientes'
+import Parceiros from '@components/Parceiros'
 import Noticias from '@components/Noticias'
 
 
@@ -35,7 +35,7 @@ export default function Home() {
       <div className='bgEffect'></div>
       <Slider/>
       <Capacitacao />
-      <Clientes />
+      <Parceiros />
       <Noticias/>
       <Contato />
       <Footer />

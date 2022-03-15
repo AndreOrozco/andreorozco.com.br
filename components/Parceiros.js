@@ -1,11 +1,9 @@
-import React from 'react';
-import style from './Cliente.module.sass'
+import style from './Parceiros.module.sass'
 
-export default function Clientes()  {
-
+export default function Parceiros() {
   return (
-    <>
-      <div className='' style={{ backgroundColor: '#1e165e', marginTop: '4rem' }}>
+  <>
+     <div style={{ backgroundColor: '#1e165e', marginTop: '4rem' }}>
         <div className={style.container}>
           <h2 className={style.title}>Clientes</h2>
           <p className={style.paragraph}>Escolha a melhor solução para você ou sua empresa!</p>
@@ -32,4 +30,3 @@ export default function Clientes()  {
     </>
   )
 }
-
