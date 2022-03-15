@@ -1,0 +1,95 @@
+.capacitacao
+    display: flex
+    margin-top: 3rem
+    .container
+    .item
+        padding: 1rem
+        margin: 2rem 1rem 1rem
+        text-align: center
+        background: rgba(255, 255, 255, 0.3)
+        box-shadow: 0 .2rem .4rem 0 rgba(30, 22, 94, 0.05)
+        border-radius: .5rem
+        min-width: 250px
+        display: flex
+        transition: transform .2s
+        flex-direction: column
+        position: relative
+        cursor: pointer
+        &:hover
+            transform: scale(1.1)
+            box-shadow:  0 2px 4px 0 rgba(30, 22, 94, 0.178)
+        h3
+            font-size: 1.1rem
+            color: #1e165e
+            font-weight: 600
+        img
+            margin: 1rem auto
+            width: 60px
+            mix-blend-mode: darken
+            height: 60px
+            filter: hue-rotate(-300deg) 
+            position: relative
+        .efeito
+            position: absolute
+            top: 20px
+            border-radius: 50%
+            mix-blend-mode: darken
+            left: 100px
+            background: rgba(235, 232, 255, 0.4)
+            width: 80px
+            height: 80px
+            z-index: 999
+            &::after
+                content: ''
+                border-radius: 50%
+                position: absolute
+                background: rgba(255, 233, 173, .5)
+                width: 40px
+                height:40px
+                left: 60px
+                animation-name: skeOne
+
+    .titulo
+        color: red
+        font-size: 2.5rem
+        font-weight: 500
+        padding-top: 1rem
+        margin: auto
+        color: #1e165e
+        text-align: center
+    p
+        text-align: center
+        margin-bottom: 1rem
+        color: #514c75
+    ul 
+        display: flex
+        width: auto
+        display: inline-flex
+        text-align: center
+        border-radius: 5rem
+        padding: .5rem
+        li
+            cursor: pointer
+            margin: .2rem
+            color: #1e165e
+            padding: .7rem 1.2rem .5rem
+            font-size: 1rem
+            border-radius: 5rem
+
+            &:hover 
+                color: #3f3680
+                background: #f1f0ff
+            &.active
+                color: #fff
+                background: linear-gradient(60deg, #3f3680, #1e165e)
+    .column
+        padding: 1rem
+    h2
+        font-size: 1.8rem
+    li
+        font-size: 1.4rem
+.nav
+    width: 100%
+    display: flex
+    justify-content: center
+

@@ -9,11 +9,24 @@
   },
   "dependencies": {
     "@iconscout/react-unicons-thinline": "^0.0.1",
+    "@trendyol-js/react-carousel": "^2.0.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.24.0",
     "css-loader": "^6.4.0",
     "next": "^11.1.1",
+    "nuka-carousel": "^4.8.4",
+    "re-carousel": "^2.4.0",
     "react": "^17.0.2",
+    "react-animated-slider": "^2.0.0",
     "react-dom": "^17.0.2",
-    "sass": "^1.42.1",
-    "sass-loader": "^11.1.1"
+    "react-elastic-carousel": "^0.11.5",
+    "react-html-parser": "^2.0.2",
+    "react-on-scroll-animation": "^1.0.0",
+    "react-scroll": "^1.8.4",
+    "react-scrolling-effects": "^0.5.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^11.1.1",
+    "styled-components": "^5.3.3",
+    "tiny-slider-react": "^0.5.4"
   }
 }
