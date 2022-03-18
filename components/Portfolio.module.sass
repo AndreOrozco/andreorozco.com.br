@@ -1,0 +1,80 @@
+.container
+    padding: 4rem 0 0
+    height: auto
+    .title 
+        text-align: center
+        margin: auto
+        color: #1e165e
+        font-size: 2.5rem
+        border: none
+        font-weight: 500
+    .paragraph
+        text-align: center
+        margin-bottom: 1rem
+        color: #1e165e
+        border: none
+        font-weight: 300
+.itens
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: 250px 250px 250px
+    grid-gap: 20px
+    max-width: 1150px
+    box-shadow: 0 10px 50px 0 #1e165e2f , inset 0 15px 150px 0 #1e165e2f 
+    margin: 3rem auto 0
+    .item
+        border-radius: .5rem
+        object-fit: cover
+        overflow: hidden
+        width: 100%
+        height: 100%
+        display: flex
+        background: #151131
+        cursor: pointer
+        position: relative
+    
+        &:nth-child(2)
+            grid-column: auto / span 2
+        &:nth-child(3)
+            grid-column: auto / span 1 
+            grid-row: auto / span 2    
+        &:nth-child(8)
+            grid-column: auto / span 1  
+            grid-row: auto / span 1   
+        .label 
+            display: none
+            margin: auto
+            z-index: 99
+            h3
+                text-transform: uppercase
+                font-size: 1.6rem !important
+            p
+                font-size: 1rem !important
+                text-align: center
+
+        .img 
+            margin: auto
+            display: block
+            filter:  brightness(999) grayscale(100)
+        img 
+            position: absolute
+            transition: transform 2s
+            mix-blend-mode: luminosity
+            z-index: 0
+            mix-blend-mode: lighten
+            border-radius: .5rem
+            opacity: 1
+            height: 100%
+            width: 100%
+            bottom: 0
+            opacity: 1
+            object-fit: cover
+            transform: scale(1)
+        &:hover
+            img
+                transform: scale(2)
+                opacity: .2 
+                mix-blend-mode: lighten
+            .label
+                color: #fff
+                display: block

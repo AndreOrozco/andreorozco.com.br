@@ -53,7 +53,7 @@ const CapacitacaoJson = {
 export default function Capacitacao() {
   const [selecionado, setSelecionado] = useState('desenvolvimento');
   return (
-    <div className={style.capacitacao}>
+    <div className={style.capacitacao} >
 
   <div className='block'>
 <div className=''>
@@ -72,11 +72,10 @@ Capacitação
 </div>
 
     <div  className={'container flex'}>
-  {CapacitacaoJson.itens[selecionado].map(element => (
-      <div class={style.item}>
+  {CapacitacaoJson.itens[selecionado].map((element,index) => (
+      <div class={style.item} data-aos="zoom-in" key={index}>
         <div className={style.efeito}></div>
         <img src={element.img}/> 
-
         <h3>{element.label}</h3>
       </div>
 

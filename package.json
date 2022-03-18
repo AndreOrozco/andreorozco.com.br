@@ -22,6 +22,7 @@
     "react-elastic-carousel": "^0.11.5",
     "react-html-parser": "^2.0.2",
     "react-on-scroll-animation": "^1.0.0",
+    "react-parallax": "^3.3.0",
     "react-scroll": "^1.8.4",
     "react-scrolling-effects": "^0.5.0",
     "sass": "^1.49.9",

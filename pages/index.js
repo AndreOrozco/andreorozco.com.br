@@ -6,6 +6,8 @@ import Slider from '@components/Slider'
 import Contato from '@components/Contato'
 import Parceiros from '@components/Parceiros'
 import Noticias from '@components/Noticias'
+import Depoimentos from '@components/Depoimentos'
+import Portfolio from '@components/Portfolio'
 
 
 export default function Home() {
@@ -36,8 +38,10 @@ export default function Home() {
       <Slider/>
       <Capacitacao />
       <Parceiros />
+      <Portfolio />
       <Noticias/>
       <Contato />
+      {/* <Depoimentos /> */}
       <Footer />
     </>
   )

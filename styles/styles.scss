@@ -32,20 +32,21 @@ button {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
   border: none;
-  background: #FFD800;
-  border-radius: 30px;
+  background: linear-gradient(50deg, #5cb9dd, #076cdf);
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 15px 40px;
-  font-weight: 400;
+  border-radius: 0.3rem 0.3rem;
+    font-weight: 400;
   font-size: 13px;
-  cursor: cursor;
+  cursor: pointer;
+  transition: all 1s ease-in;
 }
 
 button:hover {
   color: #FFFFFF;
-  background: #222222;
-  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  background: linear-gradient(50deg, #ff5e00, #ff9100);
+    -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
           filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
 }
 
@@ -326,4 +327,13 @@ button:hover {
 .slide.animateOut section span strong {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
+}
+.react-parallax {
+  padding: 2rem;
+}
+.react-parallax > img{
+  opacity: .3;
+  mix-blend-mode: luminosity;
+
+
 }

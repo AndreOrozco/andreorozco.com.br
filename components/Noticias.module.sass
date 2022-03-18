@@ -1,13 +1,41 @@
-.parceiros
-  background: rgb(238, 242, 244 )
-  width: 100% !important
-  height: 75vh
+
 .noticias 
   display: grid
   grid-area: 1rem
   grid-template-columns: 1fr 1fr 1fr 
+  a
+    padding: .5rem 1rem .4rem
+    margin-top: 1rem
+    border-radius: 3rem
+    background: linear-gradient(50deg, #5cb9dd, #076cdf)
+    color: #fff
+    &:hover
+      color: #FFFFFF
+      background: linear-gradient(50deg, #ff5e00, #ff9100)
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2))
+  .title 
+    font-weight: 500
+    color: #1e165e
+    padding-bottom: .5rem
+  p
+    color: #7f7bb9
+    padding-bottom: 1rem
   .card 
     box-shadow: 0 0 3px 2px #ffffff2d
-    margin: 1rem
+    margin: 2rem
     img
+      border-radius: .5rem
+      margin-bottom: 1.5rem
       width: 100%
+.titulo
+  padding: 2rem 1rem 0
+  width: 100%
+  text-align: center
+  margin: auto
+  color: #1e165e
+  font-size: 2.5rem
+  h2 ,h3
+    padding-top: 2rem
+    font-weight: 500 !important
+  p
+    color: #1e165e

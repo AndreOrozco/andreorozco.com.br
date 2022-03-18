@@ -58,11 +58,7 @@ export default function Header() {
           </div>
           <nav className={style.menuLeft}>
             <ul>
-              <li>
-                <p>         Quem somos
-                </p>
-
-              </li>
+        
               <li >
                 <p >
                   Capacitação
@@ -70,7 +66,12 @@ export default function Header() {
 
               </li>
               <li>
-                <p>        Nossos trabalhos
+                <p>         Clientes
+                </p>
+
+              </li>
+              <li>
+                <p>         Trabalhos
                 </p>
 
               </li>
