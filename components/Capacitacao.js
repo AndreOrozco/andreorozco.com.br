@@ -71,8 +71,8 @@ Capacitação
     </ul>
 </div>
 
-    <div  className={'container flex'}>
-  {CapacitacaoJson.itens[selecionado].map((element,index) => (
+    <div  className={'container'}>
+      <div className={style.itens}>  {CapacitacaoJson.itens[selecionado].map((element,index) => (
       <div class={style.item} data-aos="zoom-in" key={index}>
         <div className={style.efeito}></div>
         <img src={element.img}/> 
@@ -83,6 +83,8 @@ Capacitação
     
   )
   }
+  </div>
+
 
 
     </div>
