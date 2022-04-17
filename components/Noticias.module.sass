@@ -1,8 +1,10 @@
 
+$small: 300px
+$medium: 900px
 .noticias 
   display: grid
   grid-area: 1rem
-  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))
   grid-gap: 10px
   a
     padding: .5rem 1rem .4rem
@@ -18,12 +20,18 @@
     font-weight: 500
     color: #1e165e
     padding-bottom: .5rem
+    font-size: 1.3rem !important
+    @media screen and (max-width: $medium)
+      font-size: 1.2rem !important
   p
     color: #7f7bb9
     padding-bottom: 1rem
   .card 
-    box-shadow: 0 0 3px 2px #ffffff2d
-    margin: 2rem
+    box-shadow: 0 .5rem 3px 2px #f2f1f9
+    background: rgba(255,255,255,1)
+    padding: 1rem
+    margin: .5rem 1rem
+    border-radius: .6rem
     img
       border-radius: .5rem
       margin-bottom: 1.5rem
@@ -35,6 +43,8 @@
   margin: auto
   color: #1e165e
   font-size: 2.5rem
+
+
   h2 ,h3
     padding-top: 2rem
     font-weight: 500 !important

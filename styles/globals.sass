@@ -1,3 +1,5 @@
+$small: 300px
+$medium: 900px
 html,body 
   padding: 0
   margin: 0
@@ -160,38 +162,52 @@ html,body
   margin: auto
 .bgEffect
   opacity: 1
-  background-image: radial-gradient(#444cf7 1.1px, rgba(0,0 ,0 ,0 ) 1.1px)
+  background-image: radial-gradient(rgba(214, 224, 255, 0.29) 1.1px, rgba(0,0 ,0 ,0 ) 1.1px)
   background-size: 10px 10px
   position: absolute
   right: 2%
-  z-index: -1
+  z-index: 1
   width: 80%
-  top: 500px
+  top: 520px
   height: 100px
 .highlight
   display: flex
   justify-content: center
+  flex-wrap: wrap
   max-width: 1300px
-  margin: 3rem auto 0
-  .bloco
-    width: 50%
-    margin-top: 4rem
+  padding-bottom: 5rem
+  margin: 3rem auto 1rem
+  @media screen and (max-width: $medium)
+      margin: 1rem auto 1rem
   .titulo
     margin-left: 3rem
     font-size: 4rem
-    color: #1e165e
+    color: #FFF
     line-height: 4rem
   .texto
-    color: #1e165e
-    margin-left: 9rem
+    color: #d6e0ff
+    margin-left: 5rem
     margin-top: 1rem
     font-size: 1.2rem
     position: relative
+  .bloco
+    width: 50%
+    margin-top: 4rem
+    @media screen and (max-width: $medium)
+      margin-top: 2rem
+      width: 100%
+      order: 1
+      .titulo
+        font-size: 3rem
+        margin: 0 1rem
+      .texto
+        margin: 0 1rem
   .video
     margin-left: auto
     border-radius: 1rem
     margin-right: 2rem
     width: 520px
+    z-index: 5
     height: 350px
     background: #1e165e
     overflow: hidden
@@ -199,6 +215,11 @@ html,body
     display: flex
     justify-content: center
     align-items: center
+    @media screen and (max-width: $medium)
+      order: 0
+      margin: 1rem
+      clear: both
+
     video
         height: 450px
         top: 0
@@ -207,3 +228,5 @@ html,body
         width: 100%
 p
   font-size: 1.15rem
+
+    

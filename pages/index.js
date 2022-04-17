@@ -33,14 +33,16 @@ export default function Home() {
           href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.0/css/thinline.css"
         />
       </Head>
+      <div style={{backgroundColor: "#1e165e" , position: 'relative'}}>
       <Header />
       <div className='bgEffect'></div>
       <Slider/>
-      <Capacitacao />
-      <Parceiros />
-      <Portfolio />
+      </div>
+      <Capacitacao/>
+      <Parceiros/>
+      <Portfolio/>
       <Noticias/>
-      <Contato />
+      <Contato/>
       {/* <Depoimentos /> */}
       <Footer />
     </>

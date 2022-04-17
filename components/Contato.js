@@ -3,14 +3,13 @@ import { Parallax } from 'react-parallax';
 
 export default function Contato() {
   return (
-  <>
-  <Parallax className={style.contato}  blur={{ min: -15, max: 20 }}
+  <div id="contato">
+  <Parallax className={style.contato}  blur={{ min: -15, max: 30 }}
         bgImage={'/background/contato.jpg'}
         bgImageAlt="the dog"
-        strength={-200}>
+        strength={200}>
 
-
-  <div className="container flex">
+  <div className="container flex" >
 
   <div className={style.box} data-aos="fade-right"
      data-aos-offset="100"
@@ -38,12 +37,8 @@ Fale conosco
 
 </div>
     </div>
-
-
         <div className={style.form}>
           <form>
-  
-
           <div className={style.field}>
               <label>Seu nome</label>
               <input type="text" />
@@ -75,6 +70,6 @@ Fale conosco
           </div>
           </Parallax>
 
-    </>
+    </div>
   )
 }

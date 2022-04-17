@@ -14,7 +14,7 @@ export default function Slider() {
   return (
   <>
 
-<div className='highlight'>
+<div className='highlight' >
 <div className='bloco'> 
   <h1 className='titulo'>
   Experiência

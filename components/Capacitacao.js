@@ -53,7 +53,7 @@ const CapacitacaoJson = {
 export default function Capacitacao() {
   const [selecionado, setSelecionado] = useState('desenvolvimento');
   return (
-    <div className={style.capacitacao} >
+    <div className={style.capacitacao} id="capacitacao" >
 
   <div className='block'>
 <div className=''>

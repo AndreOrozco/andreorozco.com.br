@@ -3,13 +3,13 @@ import { Parallax } from 'react-parallax';
 
 export default function Parceiros() {
   return (
-  <>  <Parallax 
+  <div  id="clientes" >  <Parallax 
   style={{ backgroundColor: '#1e165e', marginTop: '4rem' }}
   className={style.contato}  blur={{ min: -35, max: 35 }}
   bgImage={'/background/background_clientes.png'}
   strength={500}>
      {/* <div style={{ backgroundColor: '#1e165e', marginTop: '4rem' }}> */}
-        <div className={style.container}>
+        <div className={style.container}  >
           <h2 className={style.title}>Clientes</h2>
           <p className={style.paragraph}>Escolha a melhor solução para você ou sua empresa!</p>
           <div className={style.itens}>
@@ -32,6 +32,6 @@ export default function Parceiros() {
             </div>
         </div>
       </Parallax>
-    </>
+    </div>
   )
 }

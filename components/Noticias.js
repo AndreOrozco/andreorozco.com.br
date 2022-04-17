@@ -2,15 +2,13 @@
 import style from './Noticias.module.sass';
 export default function Noticias() {
   return (
-    <>
-  <div className='container' >
+    <div style={{marginTop: '3rem'}}>
+  <div className='container'  id="blog">
     <div className={style.titulo}>
     <h3>Blog da Truste</h3>
           <p>O que acontece na agência e no mercado</p>
     </div>
-
-      <div className='block flex ' id="blog" style={{ height: 'auto' }}>
-
+      <div className='block flex ' style={{ height: 'auto' }}>
           <div className={style.noticias}  >
           <div className={style.card} data-aos="fade-down"
           data-aos-duration="1000"
@@ -67,6 +65,6 @@ export default function Noticias() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
